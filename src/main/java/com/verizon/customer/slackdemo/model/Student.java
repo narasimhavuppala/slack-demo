@@ -1,7 +1,13 @@
 package com.verizon.customer.slackdemo.model;
 
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document("students")
 public class Student {
 
+    @Id
 	private String id;
 	private String firstName;
 	private String lastName;
