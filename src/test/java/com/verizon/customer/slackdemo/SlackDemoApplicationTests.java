@@ -1,3 +1,4 @@
+
 package com.verizon.customer.slackdemo;
 
 import org.junit.Test;
@@ -10,7 +11,19 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class SlackDemoApplicationTests {
 
 	@Test
-	public void contextLoads() {
+	public void testAddStudent() {
+	}
+	
+	@Test
+	public void testAemoveStudent() {
 	}
 
+	@Test
+	public void testFindStudent() {
+	}
+	
+	@Test
+	public void testDisplayStudents() {
+	}
+	
 }
